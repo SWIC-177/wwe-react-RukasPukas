@@ -12,6 +12,10 @@ export default function App() {
     terms2: BELTS,
     actionTerm: searchTerm,
   });
+
+  const handleSearch = (e) => {
+    setSearchTerm(e.target.value);
+  };
   return (
     <div className="container mx-auto p-8 text-center">
       <Search />
