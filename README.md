@@ -33,5 +33,12 @@ You must still avoid mutations.
 > The key prompt is used to uniquely identify items in a list. This is a built in react prompt.
 > You cannot include multiple react components without first wrapping it in either a div tag or Fragment tag, Fragment will get rid of extra div tags.
 > You can shorten it up by adding empty tags instead of Fragment.
+> Hooks are additional functions that React offers. They are often characterized with a "use this/that"
+> The useState tells react to keep track of the specified data, then to rerender it based on the current state.
+> For this project we initialize this with an empty string BECAUSE the search is initially empty. NOTE: This is specific to this case.
+> A dispatch function is used to dispatch out and update the state.
+> You can rename terms on the left side of the equal sign.
 
-<!-- TODO: What do you think about React so far? What make sense? What connections are there to the JS fundamentals that you have learned prior to this? Reflect and personalize this! -->
+## Thoughts
+
+React is really cool, confusing, but cool! I really enjoyed implementing the search function and even though some parts of it still don't make perfect sense I think more exposure will definitely help. Following along with the extra credit portion also drastically helped clear some things up as to what was happening. During the Code analysis and review I got the gist of what was going on but did not fully understand it.
