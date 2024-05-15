@@ -1,4 +1,4 @@
-export default function Search() {
+export default function Search({ handleSearch }) {
   return (
     <div className="mb-4">
       <label className="sr-only" htmlFor="search">
@@ -6,9 +6,7 @@ export default function Search() {
       </label>
       <input
         autoFocus
-        onInput={(e) => {
-          console.log(e.target.value);
-        }}
+        onInput={handleSearch}
         className="p2 rounded border border-gray-300"
         id="search"
         placeholder="Search champions..."
