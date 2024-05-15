@@ -17,8 +17,8 @@ export default function App() {
     <div className="container mx-auto p-8 text-center">
       <Search />
       <Table
-        col1={BELTS}
-        col2={CHAMPIONS}
+        col1={filteredResults.terms1}
+        col2={filteredResults.terms2}
         col1Header="Belt"
         col2Header="Champion"
       />
