@@ -1,8 +1,10 @@
 import Search from "./components/search";
 import Table from "./components/table";
 import { BELTS, CHAMPIONS } from "./data";
+import { useState } from "react";
 
 export default function App() {
+  const [search, setSearch] = useState("");
   return (
     <div className="container mx-auto p-8 text-center">
       <Search />
