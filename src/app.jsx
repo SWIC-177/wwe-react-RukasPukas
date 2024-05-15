@@ -4,7 +4,7 @@ import { BELTS, CHAMPIONS } from "./data";
 import { useState } from "react";
 
 export default function App() {
-  const [search, setSearch] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
   return (
     <div className="container mx-auto p-8 text-center">
       <Search />
