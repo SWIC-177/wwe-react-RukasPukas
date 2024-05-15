@@ -4,8 +4,8 @@ import { BELTS, CHAMPIONS } from "./data";
 export default function App() {
   return (
     <Table
-      col1={["item1", "item2", "item3"]}
-      col2={["stuff1", "stuff2", "stuff3"]}
+      col1={BELTS}
+      col2={CHAMPIONS}
       col1Header="Belt"
       col2Header="Champion"
     />
