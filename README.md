@@ -27,6 +27,7 @@ You must still avoid mutations.
 ### Props
 
 > Typically speaking, props are destructured.
+
 > [!NOTE]
 > Passing props in is similar to adding attributes in HTML
 
