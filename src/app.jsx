@@ -18,7 +18,7 @@ export default function App() {
   };
   return (
     <div className="container mx-auto p-8 text-center">
-      <Search />
+      <Search handleSearch={handleSearch} />
       <Table
         col1={champs}
         col2={belts}
