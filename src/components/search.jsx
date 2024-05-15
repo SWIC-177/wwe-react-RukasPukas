@@ -6,6 +6,9 @@ export default function Search() {
       </label>
       <input
         autoFocus
+        onInput={(e) => {
+          console.log(e.target.value);
+        }}
         className="p2 rounded border border-gray-300"
         id="search"
         placeholder="Search champions..."
