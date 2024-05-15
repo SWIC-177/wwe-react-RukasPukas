@@ -7,18 +7,17 @@ import { filterItemsByTerm } from "./utils";
 export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredResults = filterItemsByTerm({
+  const { terms1: champs, terms2: belts } = filterItemsByTerm({
     terms1: CHAMPIONS,
     terms2: BELTS,
     actionTerm: searchTerm,
   });
-
   return (
     <div className="container mx-auto p-8 text-center">
       <Search />
       <Table
-        col1={filteredResults.terms1}
-        col2={filteredResults.terms2}
+        col1={champs}
+        col2={belts}
         col1Header="Belt"
         col2Header="Champion"
       />
