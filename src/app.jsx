@@ -1,5 +1,5 @@
 import Table from "./components/table";
-import {BELTS, CHAMPIONS}
+import { BELTS, CHAMPIONS } from "./data";
 
 export default function App() {
   return (
