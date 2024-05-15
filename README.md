@@ -31,5 +31,7 @@ You must still avoid mutations.
 > Also note you are passing in props now not arguments? Or are they interchangeable terminology?
 > You should not be turning off linting rules, these are put in place to help correctly guide your code!  
 > The key prompt is used to uniquely identify items in a list. This is a built in react prompt.
+> You cannot include multiple react components without first wrapping it in either a div tag or Fragment tag, Fragment will get rid of extra div tags.
+> You can shorten it up by adding empty tags instead of Fragment.
 
 <!-- TODO: What do you think about React so far? What make sense? What connections are there to the JS fundamentals that you have learned prior to this? Reflect and personalize this! -->
