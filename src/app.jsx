@@ -8,9 +8,9 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredResults = filterItemsByTerm({
-    terms1: this.#champions,
-    terms2: this.#belts,
-    actionTerm: this.#search,
+    terms1: CHAMPIONS,
+    terms2: BELTS,
+    actionTerm: searchTerm,
   });
 
   return (
