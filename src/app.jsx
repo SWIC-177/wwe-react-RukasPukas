@@ -1,3 +1,5 @@
+import Table from "./components/table";
+
 export default function App() {
   return (
     <div className="bg-gray-100 p-4">
